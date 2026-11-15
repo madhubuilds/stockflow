@@ -1,0 +1,48 @@
+
+export const mockOrders = [
+  {
+    id: "ORD-1001",
+    store: "Sri Lakshmi Fashions",
+    location: "Hyderabad",
+    date: "2026-11-15",
+    items: 3,
+    amount: 24500,
+    status: "Pending",
+  },
+  {
+    id: "ORD-1002",
+    store: "Venkateswara Garments",
+    location: "Warangal",
+    date: "2026-11-15",
+    items: 1,
+    amount: 10000,
+    status: "Approved",
+  },
+  {
+    id: "ORD-1003",
+    store: "Fashion Hub",
+    location: "Karimnagar",
+    date: "2026-11-14",
+    items: 1,
+    amount: 5800,
+    status: "Processing",
+  },
+  {
+    id: "ORD-1004",
+    store: "New Style Collection",
+    location: "Nizamabad",
+    date: "2026-11-14",
+    items: 1,
+    amount: 9000,
+    status: "Dispatched",
+  },
+  {
+    id: "ORD-1005",
+    store: "City Trends",
+    location: "Khammam",
+    date: "2026-11-13",
+    items: 1,
+    amount: 13500,
+    status: "Pending",
+  },
+];

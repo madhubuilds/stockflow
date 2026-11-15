@@ -1,0 +1,38 @@
+export const mockUsers = [
+  {
+    id: "USR-001",
+    name: "Demo Admin",
+    email: "admin@stockflow.demo",
+    phone: "",
+    role: "Admin",
+    status: "Active",
+    createdAt: "2026-01-01T00:00:00.000Z",
+  },
+  {
+    id: "USR-002",
+    name: "Warehouse Manager",
+    email: "manager@stockflow.demo",
+    phone: "",
+    role: "Manager",
+    status: "Active",
+    createdAt: "2026-01-02T00:00:00.000Z",
+  },
+  {
+    id: "USR-003",
+    name: "Warehouse Staff",
+    email: "staff@stockflow.demo",
+    phone: "",
+    role: "Warehouse Staff",
+    status: "Active",
+    createdAt: "2026-01-03T00:00:00.000Z",
+  },
+  {
+    id: "USR-004",
+    name: "StockFlow Viewer",
+    email: "viewer@stockflow.demo",
+    phone: "",
+    role: "Viewer",
+    status: "Active",
+    createdAt: "2026-01-04T00:00:00.000Z",
+  },
+];
